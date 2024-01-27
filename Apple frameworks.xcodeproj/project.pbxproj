@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B17C0BF2B651BA20000AD5F /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17C0BE2B651BA20000AD5F /* AFButton.swift */; };
+		1B17C0C12B6520950000AD5F /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17C0C02B6520950000AD5F /* FrameworkGridViewModel.swift */; };
+		1B902ADC2B650AA60050F056 /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B902ADB2B650AA60050F056 /* FrameworkGridView.swift */; };
+		1B902ADE2B6510760050F056 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B902ADD2B6510760050F056 /* Structs.swift */; };
+		1B902AE22B6519100050F056 /* FrameworkDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B902AE12B6519100050F056 /* FrameworkDetailedView.swift */; };
 		1BB9FB3A2B6503770064DC7B /* Apple_frameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9FB392B6503770064DC7B /* Apple_frameworksApp.swift */; };
-		1BB9FB3C2B6503770064DC7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9FB3B2B6503770064DC7B /* ContentView.swift */; };
 		1BB9FB3E2B6503780064DC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB9FB3D2B6503780064DC7B /* Assets.xcassets */; };
 		1BB9FB422B6503780064DC7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB9FB412B6503780064DC7B /* Preview Assets.xcassets */; };
+		1BB9FB492B6504090064DC7B /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9FB482B6504090064DC7B /* Framework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B17C0BE2B651BA20000AD5F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		1B17C0C02B6520950000AD5F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		1B902ADB2B650AA60050F056 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
+		1B902ADD2B6510760050F056 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		1B902AE12B6519100050F056 /* FrameworkDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailedView.swift; sourceTree = "<group>"; };
 		1BB9FB362B6503770064DC7B /* Apple frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB9FB392B6503770064DC7B /* Apple_frameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_frameworksApp.swift; sourceTree = "<group>"; };
-		1BB9FB3B2B6503770064DC7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BB9FB3D2B6503780064DC7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BB9FB3F2B6503780064DC7B /* Apple_frameworks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Apple_frameworks.entitlements; sourceTree = "<group>"; };
 		1BB9FB412B6503780064DC7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BB9FB482B6504090064DC7B /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				1BB9FB392B6503770064DC7B /* Apple_frameworksApp.swift */,
-				1BB9FB3B2B6503770064DC7B /* ContentView.swift */,
+				1B902ADB2B650AA60050F056 /* FrameworkGridView.swift */,
+				1B17C0C02B6520950000AD5F /* FrameworkGridViewModel.swift */,
+				1B902AE12B6519100050F056 /* FrameworkDetailedView.swift */,
+				1B17C0BE2B651BA20000AD5F /* AFButton.swift */,
+				1B902ADD2B6510760050F056 /* Structs.swift */,
+				1BB9FB482B6504090064DC7B /* Framework.swift */,
 				1BB9FB3D2B6503780064DC7B /* Assets.xcassets */,
 				1BB9FB3F2B6503780064DC7B /* Apple_frameworks.entitlements */,
 				1BB9FB402B6503780064DC7B /* Preview Content */,
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB9FB3C2B6503770064DC7B /* ContentView.swift in Sources */,
+				1B902ADE2B6510760050F056 /* Structs.swift in Sources */,
+				1B902ADC2B650AA60050F056 /* FrameworkGridView.swift in Sources */,
+				1BB9FB492B6504090064DC7B /* Framework.swift in Sources */,
 				1BB9FB3A2B6503770064DC7B /* Apple_frameworksApp.swift in Sources */,
+				1B17C0BF2B651BA20000AD5F /* AFButton.swift in Sources */,
+				1B17C0C12B6520950000AD5F /* FrameworkGridViewModel.swift in Sources */,
+				1B902AE22B6519100050F056 /* FrameworkDetailedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +302,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "bottle.Apple-frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,7 +340,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "bottle.Apple-frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
