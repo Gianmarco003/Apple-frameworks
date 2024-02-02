@@ -8,4 +8,4 @@ The project consists in developing an app that shows the list of the main Apple'
 I'm studying SwiftUI thanks to this [video.](https://youtu.be/b1oC7sLIgpI?si=rbQqJavLBTJpxdya)
 
 ## Previews
-![alt text](Preview/MainView.png "Schermata")![alt text](Preview/detailView.png)![alt text](Preview/SafariView.png)
+![alt text](Preview/MainView.png "Schermata")![alt text](Preview/DetailView.png)![alt text](Preview/SafariView.png)
