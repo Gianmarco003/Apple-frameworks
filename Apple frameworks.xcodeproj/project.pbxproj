@@ -23,9 +23,9 @@
 		1B17C0BE2B651BA20000AD5F /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		1B17C0C02B6520950000AD5F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		1B351E5C2B6DAD50000BD1EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1B351E5D2B6DAE79000BD1EA /* Main view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main view.png"; sourceTree = "<group>"; };
-		1B351E5E2B6DAE79000BD1EA /* Detail view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Detail view.png"; sourceTree = "<group>"; };
-		1B351E5F2B6DAE7A000BD1EA /* Safari view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Safari view.png"; sourceTree = "<group>"; };
+		1B351E5D2B6DAE79000BD1EA /* MainView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainView.png; sourceTree = "<group>"; };
+		1B351E5E2B6DAE79000BD1EA /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailView.png; sourceTree = "<group>"; };
+		1B351E5F2B6DAE7A000BD1EA /* SafariView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafariView.png; sourceTree = "<group>"; };
 		1B5C0E9C2B65668E002F16A9 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		1B902ADB2B650AA60050F056 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		1B902ADD2B6510760050F056 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
@@ -52,9 +52,9 @@
 		1B351E602B6DAEA3000BD1EA /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				1B351E5D2B6DAE79000BD1EA /* Main view.png */,
-				1B351E5E2B6DAE79000BD1EA /* Detail view.png */,
-				1B351E5F2B6DAE7A000BD1EA /* Safari view.png */,
+				1B351E5D2B6DAE79000BD1EA /* MainView.png */,
+				1B351E5E2B6DAE79000BD1EA /* DetailView.png */,
+				1B351E5F2B6DAE7A000BD1EA /* SafariView.png */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
