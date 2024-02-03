@@ -23,6 +23,6 @@ struct AFButton: View {
 
 struct AFButton_Previews: PreviewProvider {
     static var previews: some View {
-        AFButton(title: "Learn more")
+        AFButton(title: "Test text")
     }
 }
