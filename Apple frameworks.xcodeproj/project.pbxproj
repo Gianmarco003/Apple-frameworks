@@ -25,8 +25,8 @@
 		1B17C0C02B6520950000AD5F /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		1B351E5C2B6DAD50000BD1EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1B351E5D2B6DAE79000BD1EA /* MainView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainView.png; sourceTree = "<group>"; };
-		1B351E5E2B6DAE79000BD1EA /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailView.png; sourceTree = "<group>"; };
 		1B351E5F2B6DAE7A000BD1EA /* SafariView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SafariView.png; sourceTree = "<group>"; };
+		1B3BF9692B6E55BD0014E4B4 /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailView.png; sourceTree = "<group>"; };
 		1B5C0E9C2B65668E002F16A9 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		1B5F114E2B6E4325005981CA /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		1B902ADB2B650AA60050F056 /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				1B351E5D2B6DAE79000BD1EA /* MainView.png */,
-				1B351E5E2B6DAE79000BD1EA /* DetailView.png */,
 				1B351E5F2B6DAE7A000BD1EA /* SafariView.png */,
+				1B3BF9692B6E55BD0014E4B4 /* DetailView.png */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
