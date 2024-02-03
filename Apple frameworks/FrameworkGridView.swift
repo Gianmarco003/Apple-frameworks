@@ -10,7 +10,6 @@ import SwiftUI
 struct FrameworkGridView: View {
     @StateObject var viewModel = FrameworkGridViewModel()
     
-    
     var body: some View {
         NavigationView {
             ScrollView{
