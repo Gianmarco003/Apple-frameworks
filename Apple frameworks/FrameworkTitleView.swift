@@ -8,21 +8,29 @@
 import Foundation
 import SwiftUI
 
-struct frameworkTitleView:View {
+struct frameworkTitleView: View {
     let framework: Framework
     
     var body: some View{
-        VStack{
+        HStack(){
             Image(framework.imageName)
                 .symbolRenderingMode(.multicolor)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 100, height: 100)
+                .frame(width: 70, height: 70)
             Text(framework.name)
                 .font(.title2)
-                .fontWeight(.semibold)
+                .fontWeight(.bold)
                 .scaledToFit()
                 .minimumScaleFactor(0.6)
-        }.padding()
+                .padding()
+            Image(systemName: "sun")
+        }
+    }
+}
+
+struct frameworkTitleView_preview: PreviewProvider {
+    static var previews: some View {
+        frameworkTitleView(framework: MockData.sampleFramework)
     }
 }
