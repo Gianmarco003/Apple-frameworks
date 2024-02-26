@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FrameworkDetailedView: View {
+    
     let framework: Framework
     @State private var isShowingSafariView = false
     
@@ -19,17 +20,20 @@ struct FrameworkDetailedView: View {
                 .font(.body)
                 .padding()
             Spacer()
-            Button{
-                isShowingSafariView = true
-            } label: {
-                //AFButton(title: "Learn more")
-                Label("Learn more", systemImage: "book.fill")
+            Link(destination: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!) {
+                Button{
+                    
+                } label: {
+                    //AFButton(title: "Learn more")
+                    Label("Learn more", systemImage: "book.fill")
+                }
+                .buttonStyle(.bordered)
+                //.foregroundColor(.yellow)
+                //.buttonBorderShape(.roundedRectangle(radius: 20))
+                .controlSize(.large)
+                .tint(.red)
+                .padding(.bottom)
             }
-            .buttonStyle(.bordered)
-            //.foregroundColor(.yellow)
-            //.buttonBorderShape(.roundedRectangle(radius: 20))
-            .controlSize(.large)
-            .tint(.red)
         }
         .sheet(isPresented: $isShowingSafariView, content: {
             SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
